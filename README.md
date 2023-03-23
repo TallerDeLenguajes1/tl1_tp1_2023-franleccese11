@@ -1,0 +1,7 @@
+Es conveniente incluir un archivo .gitignore en tu repositorio para evitar que los archivos y directorios irrelevantes se incluyan accidentalmente en el control de versiones.
+
+Cuando se utiliza Git para el control de versiones, todos los archivos y directorios que se encuentran en el directorio raíz del repositorio se agregan automáticamente a Git a menos que se especifiquen explícitamente en el archivo .gitignore. Esto puede ser problemático si hay archivos o directorios que no deben incluirse en el control de versiones, como archivos de configuración, archivos de registro, archivos de caché, archivos compilados, archivos de dependencias, etc.
+
+Al incluir un archivo .gitignore en tu repositorio, puedes especificar qué archivos y directorios no deben ser incluidos en el control de versiones. Esto ayuda a mantener el repositorio limpio y organizado, y reduce la cantidad de archivos innecesarios que se almacenan en el control de versiones.
+
+Además, al utilizar un archivo .gitignore, también se evita incluir archivos confidenciales, como contraseñas y claves de API, que no deben compartirse públicamente. Esto ayuda a proteger la seguridad de los datos sensibles y evita posibles problemas de seguridad.
